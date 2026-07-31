@@ -1,2 +1,11 @@
 # Differentiable Earth system science research group
-Builds and applies differentiable Earth System Models to enable gradient-based optimization, data assimilation, parameter learning, and end-to-end coupling with machine learning components.
+Apply differentiable Earth system model components as instruments for gradient-based science. 
+
+### What differentiability makes possible:
+
+*Learn from data at scale*: learn parameters, structures, and ML closures 
+
+*Embed machine learning in physics*: train learned components while coupled 
+
+*Ask scientific questions in new ways*: sensitivity, attribution, causality
+
