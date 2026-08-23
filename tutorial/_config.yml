@@ -5,8 +5,8 @@ title: Differentiable Earth System Modeling with JAX
 author: Differentiable Earth System Science Research Group (LEAP)
 copyright: "2026"
 
-# Don't execute notebooks at build time while chapters are stubs.
-# Switch to "cache" once chapters have real, runnable content.
+# Notebooks are committed with executed outputs (re-run locally when edited),
+# so builds render stored results and need no JAX at build time.
 execute:
   execute_notebooks: "off"
 
