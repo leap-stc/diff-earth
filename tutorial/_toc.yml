@@ -1,0 +1,30 @@
+format: jb-book
+root: intro
+parts:
+  - caption: "Part 0 — Why differentiable modeling?"
+    chapters:
+      - file: part0/adjoint-for-free
+      - file: part0/questions-as-gradients
+  - caption: "Part 1 — JAX fundamentals"
+    chapters:
+      - file: part1/thinking-in-jax
+      - file: part1/first-climate-gradient
+      - file: part1/energy-balance-model
+  - caption: "Part 2 — Gradient-based science on a small model"
+    chapters:
+      - file: part2/sensitivity-maps
+      - file: part2/calibration
+      - file: part2/variational-da
+      - file: part2/hybrid-physics-ml
+  - caption: "Part 3 — The hard parts"
+    chapters:
+      - file: part3/gradients-through-chaos
+      - file: part3/memory-and-cost
+      - file: part3/non-smooth-physics
+      - file: part3/differentiating-solvers
+      - file: part3/trusting-gradients
+  - caption: Appendices
+    chapters:
+      - file: appendix/setup
+      - file: appendix/jax-gotchas
+      - file: appendix/bibliography

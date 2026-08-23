@@ -1,0 +1,15 @@
+name: diff-earth-tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+      - jax
+      - optax
+      - equinox
+      - diffrax
+      - jupyter-book~=1.0  # book uses the classic _config.yml/_toc.yml format, not the 2.x MyST engine

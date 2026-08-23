@@ -1,0 +1,30 @@
+# Jupyter Book configuration
+# See https://jupyterbook.org/customize/config.html
+
+title: Differentiable Earth System Modeling with JAX
+author: Differentiable Earth System Science Research Group (LEAP)
+copyright: "2026"
+
+# Don't execute notebooks at build time while chapters are stubs.
+# Switch to "cache" once chapters have real, runnable content.
+execute:
+  execute_notebooks: "off"
+
+repository:
+  url: https://github.com/leap-stc/diff-earth
+  path_to_book: tutorial
+  branch: main
+
+html:
+  use_issues_button: true
+  use_repository_button: true
+
+launch_buttons:
+  colab_url: "https://colab.research.google.com"
+
+bibtex_bibfiles:
+  - references.bib
+
+sphinx:
+  config:
+    bibtex_reference_style: author_year
