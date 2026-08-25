@@ -1,4 +1,4 @@
-# 0.1 The adjoint you get for free
+# 0.1 The adjoint for free
 
 ```{admonition} Learning goals
 :class: tip
