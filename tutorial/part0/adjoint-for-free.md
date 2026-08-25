@@ -2,13 +2,13 @@
 
 ```{admonition} Learning goals
 :class: tip
-- Recall what tangent linear and adjoint models are and what they historically cost to build
-- Explain what automatic differentiation is — and why it is neither symbolic algebra nor finite differencing
+- Recall what tangent linear and adjoint models are used for. 
+- Explain what automatic differentiation is 
 - Map forward-mode differentiation to the tangent linear model and reverse mode to the adjoint model
 - State what automatic differentiation does *not* solve (the subject of Part 3)
 ```
 
-## Sensitivity questions before automatic differentiation
+## Before automatic differentiation
 
 Many questions in Earth system science are questions about derivatives, whether or not they are phrased that way. *How much does a forecast change if the initial state is nudged here?* *Which observations would most improve the analysis?* *How sensitive is process A to process B?* Each asks for the derivative of a model output with respect to model inputs.
 
