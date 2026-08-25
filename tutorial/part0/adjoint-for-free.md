@@ -1,8 +1,8 @@
 # 0.1 The adjoint for free
 
-```{admonition} Learning goals
+```{admonition} Outline
 :class: tip
-- Recall what tangent linear and adjoint models are used for. 
+- Recall what tangent linear and adjoint models are used for 
 - Explain what automatic differentiation is 
 - Map forward-mode differentiation to the tangent linear model and reverse mode to the adjoint model
 - State what automatic differentiation does *not* solve (the subject of Part 3)
