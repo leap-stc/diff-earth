@@ -1,0 +1,26 @@
+name: fair-jax
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - numpy
+  - scipy
+  - pandas
+  - xarray
+  - netcdf4
+  - matplotlib
+  - pooch
+  - tqdm
+  - pytest
+  - pip
+  - pip:
+      - fair==2.2.4     # reference implementation we validate against
+      - jax
+      - optax
+      - numpyro
+      # only needed to re-run scripts/stage_cesm.py; data/cesm2_targets.nc is
+      # committed, so participants can skip these
+      # - gcsfs
+      # - zarr
+      # - intake-esm
