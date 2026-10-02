@@ -1,4 +1,4 @@
-# Notebook 03: Python 3.11, JAX-GCM v2.0.1 with the tested core dependencies.
+# Python 3.11. Runs the tutorial and the hackathon notebooks.
 jcm @ git+https://github.com/climate-analytics-lab/jax-gcm.git@06fd4771bccf6f8df3a1f032ca0c6e4e7957cf2d
 jax==0.10.2
 jaxlib==0.10.2
@@ -8,3 +8,7 @@ numpy==2.4.6
 xarray==2026.7.0
 matplotlib==3.11.2
 jupyterlab==4.6.4
+# needed by the tutorial (optax also comes in with jcm)
+optax==0.2.8
+equinox==0.13.8
+diffrax==0.7.2
