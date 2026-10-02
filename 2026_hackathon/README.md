@@ -2,10 +2,21 @@
 
 ## Differentiable coupled model
 
-[Notebook 03](notebooks/03_coupled_model.ipynb) uses JAX-GCM v2.0.1 (SPEEDY)
+[`notebooks/01_jcm_sensitivities.ipynb`](notebooks/01_jcm_sensitivities.ipynb) uses JAX-GCM v2.0.1 (SPEEDY)
 to change soil boundary conditions and atmospheric initial conditions, then
 compute forward (JVP) and reverse (VJP) sensitivities. Runs last seven days;
 sensitivities use six hours. Soil temperature and wetness are prescribed.
+
+### Setup with conda
+
+From the repository root:
+
+```bash
+conda env create -f 2026_hackathon/environment.yml
+conda activate diff-earth-hackathon
+```
+
+### Setup with uv
 
 Install [uv](https://docs.astral.sh/uv/getting-started/installation/) once
 (Linux/macOS):

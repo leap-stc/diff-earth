@@ -1,0 +1,10 @@
+name: diff-earth-hackathon
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - git    # pip installs jcm (JAX-GCM) from GitHub
+  - pip
+  - pip:
+      # pinned, tested versions live in requirements.txt (shared with the uv setup)
+      - -r requirements.txt
