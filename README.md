@@ -21,9 +21,5 @@ conda activate diff-earth-tutorial
 jupyter-book build tutorial/
 ```
 
-## boxesm
-
-[`boxesm/`](boxesm/) is a standalone, differentiable four-box Earth system model (atmosphere, ocean mixed layer, deep ocean, land) exchanging energy, water, and carbon. Every flux is one labelled function, so students can read it in one sitting and start taking gradients through a stiff, coupled model. See its README for setup and the spin-up report.
-
 Inspired by the M2LInES [L96 demo book](https://m2lines.github.io/L96_demo/intro.html).
 
