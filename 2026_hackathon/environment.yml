@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - git    # pip installs jcm (JAX-GCM) from GitHub
+  - git    # to clone JCM (JAX-GCM); see notebooks/SETUP.md
   - pip
   - pip:
       # pinned, tested versions live in requirements.txt (shared with the uv setup)

@@ -126,6 +126,7 @@ Share one finding or figure from your exploration and we can discuss as a group:
 ├── README.md                       this file
 ├── environment.yml                 conda environment
 ├── requirements.txt                pinned packages (used by conda and uv)
+├── jax-gcm/                        your JCM clone (created during setup, not tracked)
 └── notebooks/
     ├── SETUP.md                   environment setup instructions
     └── 01_jcm_sensitivities.ipynb  the JCM walkthrough
