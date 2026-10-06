@@ -17,7 +17,8 @@ For this hackathon we will
 
 Install JAX and JCM. 
 
-1. Clone this repository.
+1. Clone this repository: 
+`git clone https://github.com/leap-stc/diff-earth.git`
 2. Follow the setup instructions in [`notebooks/SETUP.md`](notebooks/SETUP.md). They cover conda and uv, and how to select the kernel in VS Code or JupyterLab. The same environment runs every tutorial chapter.
 3. Run [`notebooks/01_jcm_sensitivities.ipynb`](notebooks/01_jcm_sensitivities.ipynb) from top to bottom. If every cell finishes, you are ready. 
 
