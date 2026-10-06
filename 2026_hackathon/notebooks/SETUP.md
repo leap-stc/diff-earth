@@ -44,11 +44,12 @@ python -m ipykernel install --user --name diff-earth-hackathon --display-name "P
 
 
 ## install JCM
+```bash
 git clone https://github.com/climate-analytics-lab/jax-gcm.git
 cd jax-gcm
 git checkout 06fd4771bccf6f8df3a1f032ca0c6e4e7957cf2d
 pip install -e .
-
+```
 
 ## Check that it works
 
