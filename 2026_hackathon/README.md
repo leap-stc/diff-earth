@@ -18,7 +18,7 @@ For this hackathon we will
 Install JAX and JCM. 
 
 1. Clone this repository.
-2. Follow the setup instructions in [`notebooks/README.md`](notebooks/README.md). They cover conda and uv, and how to select the kernel in VS Code or JupyterLab. The same environment runs every tutorial chapter.
+2. Follow the setup instructions in [`notebooks/SETUP.md`](notebooks/SETUP.md). They cover conda and uv, and how to select the kernel in VS Code or JupyterLab. The same environment runs every tutorial chapter.
 3. Run [`notebooks/01_jcm_sensitivities.ipynb`](notebooks/01_jcm_sensitivities.ipynb) from top to bottom. If every cell finishes, you are ready. 
 
 ## Part 1: the tutorial
@@ -127,6 +127,6 @@ Share one finding or figure from your exploration and we can discuss as a group:
 ├── environment.yml                 conda environment
 ├── requirements.txt                pinned packages (used by conda and uv)
 └── notebooks/
-    ├── README.md                   environment setup instructions
+    ├── SETUP.md                   environment setup instructions
     └── 01_jcm_sensitivities.ipynb  the JCM walkthrough
 ```

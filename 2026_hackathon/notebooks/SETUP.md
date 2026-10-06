@@ -42,6 +42,14 @@ python -m ipykernel install --user --name diff-earth-hackathon --display-name "P
 
 **In JupyterLab:** with the environment active, run `jupyter lab` and choose **Kernel → Change Kernel... → Python (diff-earth-hackathon)**.
 
+
+## install JCM
+git clone https://github.com/climate-analytics-lab/jax-gcm.git
+cd jax-gcm
+git checkout 06fd4771bccf6f8df3a1f032ca0c6e4e7957cf2d
+pip install -e .
+
+
 ## Check that it works
 
 Run [`01_jcm_sensitivities.ipynb`](01_jcm_sensitivities.ipynb) from top to bottom. The first model run compiles, which takes about a minute; after that each run takes a few seconds. If every cell finishes, you are ready for the hackathon. Please clear the outputs before committing any changes.
